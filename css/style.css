@@ -1,0 +1,39 @@
+p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 25px 50px 75px;
+    font-size: 105px;
+    opacity: 0.5;
+}
+
+div.gallery {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    margin: 90px;
+    border: 2px solid #111;
+    float: left;
+    width: 180px;
+    border-style: inset;
+}
+  
+div.gallery:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+    border: 1px solid #777;
+}
+  
+div.gallery img {
+    width: 200%;
+    height: auto;
+    border-style: hidden;
+}
+  
+div.desc {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: azure;
+    text-emphasis: bold;
+    text-decoration-style: wavy;
+    padding: 10px;
+    text-align: center;
+    border: #888;
+    background-color: #111;
+}
