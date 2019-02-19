@@ -1,22 +1,35 @@
 <!--(Kushal Sinha Roy)
 This HTML runs the Guessing game JS, and 
 at the end it displays a page which provides
-links to few of the photo gallery for me.
+an introduction and links to few of the photo gallery for me.
 -->
 <!DOCTYPE html>
 <html>
 
 <head>
+    <meta charset="utf-8">
     <title>Guessing Game</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body background="img/backgroundImage.jpg">
-    <p>
-        Thanks for playing the guessing game. My name is Kushal Sinha Roy.
-        I love photography. Please have a look at some of my photo gallery!!!!
-    </p>
+    <div class="container">
+        <div class="header">
+            <h1>About Me</h1>
+        </div><!-- end header-->
+        <div class="image">
+            <img src="img/profilePicture.jpg">	
+        </div><!-- end image-->
+        <div class="intro column">
+            <h2>Introduction</h2>
+            <p>
+                Thanks for playing the guessing game. My name is Kushal, and I am a 32 year old software developer from India. 
+                I completed my graduation with a major in Computer Science and Engineering. I love playing video games and FIFA'17 is my favorite one. 
+                I love photography, and a passionate photographer. Please have a look at some of my photo gallery.
+            </p>
+        </div><!-- end intro-->
+    </div><!--end container-->
     <script src="js/app.js"></script>
 </body>
 
@@ -47,5 +60,9 @@ links to few of the photo gallery for me.
     </a>
     <div class="desc">Colorado Landscapes</div>
 </div>
+
+<div class="footer">
+    <p>Kushal Sinha Roy | Application Engineer | Amazon | Seattle, WA</p>
+  </div>
 
 </html>
